@@ -1,0 +1,19 @@
+/*
+Theme Name: Socksy
+Text Domain: socksy
+Version: 1.0
+Description: Socksy a Woocommerce compatible theme made with Wordpress. You can sell everything online and it is beautifully designed and completely responsive. Above all you can sell socks. Anyone like socks.
+Author: Mauro Bono
+Author URI: https://www.maurobono.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post, threaded-comments
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+@import url("./assets/css/style.css");

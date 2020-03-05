@@ -1,0 +1,27 @@
+/* Footer Styles */
+.footer-menu {
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0;
+    display: flex;
+
+    li {
+      margin: 0 10px 0 0;
+
+      &:last-child {
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: #939393;
+      }
+    }
+  }
+
+}
