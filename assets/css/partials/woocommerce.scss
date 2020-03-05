@@ -1,0 +1,23 @@
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+.products {
+
+	li {
+		border: 1px solid red;
+		padding: 10px !important;
+
+		.woocommerce-loop-product__title {
+			font-size: 18px;
+			font-weight: 700;
+			color: red;
+			text-transform: uppercase;
+		}
+	}
+}
