@@ -18,6 +18,12 @@ function socksy_scripts(){
    */
   wp_enqueue_style( 'socksy-main-style', get_stylesheet_uri(), array(), 1.0, 'all' );
   wp_enqueue_style( 'socksy-style', get_template_directory_uri() . '/assets/css/style.css', array(), filemtime(get_template_directory() . '/assets/css/style.css'), 'all' );
+
+  /**
+   * Google Fonts
+   */
+  wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700&display=swap|https://fonts.googleapis.com/css?family=Seaweed+Script&display=swap' );
+
 }
 add_action( 'wp_enqueue_scripts', 'socksy_scripts' );
 
