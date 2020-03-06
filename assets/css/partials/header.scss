@@ -21,3 +21,14 @@
 .main-menu ul li:last-child{
     margin: 0;
 }
+
+.main-menu .dropdown:hover>.dropdown-menu,
+.main-menu .dropup:hover>.dropdown-menu  {
+  display: block;
+}
+
+/* Change Bootstrap Toggle Menu Icon */
+
+.main-menu .navbar-toggler-icon {
+    background-image: url('../img/hamburger-menu.svg');
+}

@@ -7,6 +7,11 @@
  * @package Socksy
  */
 
+/**
+ * Ragister Custom Navigation Walker
+ */
+require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
+
 function socksy_scripts(){
   /**
    * Include Bootstrap 4 Css and Js
