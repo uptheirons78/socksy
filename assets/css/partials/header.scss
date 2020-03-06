@@ -1,24 +1,23 @@
 /* Header Styles */
 
-/* Main Menu Styles */
-.main-menu {
+/* Header - Main Menu */
+.main-menu{
+    padding: 0;
+}
 
-  ul {
-    list-style-type: none;
+.main-menu ul{
     padding: 0;
     margin: 0;
     font-size: 18px;
     font-weight: 500;
     border-radius: 0;
-    display: flex;
+}
 
-    li {
-      margin: 0 5px 0 0;
+.main-menu ul li{
+    display: inline;
+    margin: 0 5px 0 0;
+}
 
-      &:last-child {
-        margin: 0;
-      }
-    }
-  }
-
+.main-menu ul li:last-child{
+    margin: 0;
 }

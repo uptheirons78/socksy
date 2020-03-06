@@ -16,7 +16,8 @@ function socksy_scripts(){
   /**
    * Include Theme Styles
    */
-  wp_enqueue_style( 'socksy-style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all' );
+  wp_enqueue_style( 'socksy-main-style', get_stylesheet_uri(), array(), 1.0, 'all' );
+  wp_enqueue_style( 'socksy-style', get_template_directory_uri() . '/assets/css/style.css', array(), filemtime(get_template_directory() . '/assets/css/style.css'), 'all' );
 }
 add_action( 'wp_enqueue_scripts', 'socksy_scripts' );
 
@@ -57,5 +58,13 @@ function socksy_config(){
 }
 add_action( 'after_setup_theme', 'socksy_config', 0 );
 
-require get_template_directory() . '/inc/wc-modifications.php';
+/**
+ * Theme must not depend on WooCommerce Plugin
+ * if WooCommerce Plugin is not installed or is disabled
+ * wc-modifications.php will not be loaded
+ */
+if(class_exists('WooCommerce')) {
+  require get_template_directory() . '/inc/wc-modifications.php';
+}
+
 

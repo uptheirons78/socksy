@@ -9,7 +9,9 @@
 // Base.
 @import 'partials/base';
 
-// Header
+// Different Pages or Components
 @import 'partials/header.scss';
 @import 'partials/footer.scss';
 @import 'partials/woocommerce.scss';
+@import 'partials/single-product.scss';
+@import 'partials/cart.scss';

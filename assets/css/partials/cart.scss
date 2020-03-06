@@ -1,0 +1,21 @@
+/* Cart */
+
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+    width: 200px;
+}
+
+
+/* Checkout */
+.woocommerce form .form-row {
+    display: block;
+}
+.woocommerce-checkout #customer_details{
+    margin-bottom: 20px;
+}
+.woocommerce table.shop_table{
+    border-collapse: collapse;
+}
+.woocommerce table.shop_table thead{
+    background-color: #D2335B;
+    color: #fff;
+}

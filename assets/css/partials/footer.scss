@@ -1,27 +1,25 @@
-/* Footer Styles */
-.footer-menu {
-
-  ul {
-    list-style-type: none;
+/* Footer - Footer Menu */
+.footer-menu ul, .footer-widgets ul{
+    list-style: none;
     padding: 0;
     margin: 0;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 0;
-    display: flex;
+    font-size: 16px;
+}
 
-    li {
-      margin: 0 10px 0 0;
+.footer-menu ul li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
 
-      &:last-child {
-        margin: 0;
-      }
+.footer-menu ul li:last-child{
+    margin: 0;
+}
 
-      a {
-        text-decoration: none;
-        color: #939393;
-      }
-    }
-  }
+.footer-menu ul li a{
+    color: #939393;
+    text-decoration: none;
+}
 
+.footer-menu ul li.current-menu-item a{
+    color: #ff9292;
 }
